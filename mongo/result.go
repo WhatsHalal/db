@@ -32,9 +32,9 @@ import (
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
+	"github.com/WhatsHalal/db"
 
-	"upper.io/db.v3/internal/immutable"
+	"github.com/WhatsHalal/db/internal/immutable"
 )
 
 type resultQuery struct {

@@ -30,7 +30,7 @@ import (
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
+	"github.com/WhatsHalal/db"
 )
 
 // Collection represents a mongodb collection.

@@ -19,15 +19,15 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-package mysql // import "upper.io/db.v3/mysql"
+package mysql // import "github.com/WhatsHalal/db/mysql"
 
 import (
 	"database/sql"
 
-	"upper.io/db.v3"
+	"github.com/WhatsHalal/db"
 
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/WhatsHalal/db/internal/sqladapter"
+	"github.com/WhatsHalal/db/lib/sqlbuilder"
 )
 
 const sqlDriver = `mysql`

@@ -27,7 +27,7 @@
 // driver. upper-db supports the MySQL, PostgreSQL, SQLite and QL databases and
 // provides partial support (CRUD, no transactions) for MongoDB.
 //
-//  go get upper.io/db.v3
+//  go get github.com/WhatsHalal/db
 //
 // Usage
 //
@@ -36,7 +36,7 @@
 //  import (
 //  	"log"
 //
-//  	"upper.io/db.v3/postgresql" // Imports the postgresql adapter.
+//  	"github.com/WhatsHalal/db/postgresql" // Imports the postgresql adapter.
 //  )
 //
 //  var settings = postgresql.ConnectionURL{
@@ -73,15 +73,15 @@
 //  }
 //
 // See more usage examples and documentation for users at
-// https://upper.io/db.v3.
-package db // import "upper.io/db.v3"
+// https://github.com/WhatsHalal/db.
+package db // import "github.com/WhatsHalal/db"
 
 import (
 	"fmt"
 	"reflect"
 	"sort"
 
-	"upper.io/db.v3/internal/immutable"
+	"github.com/WhatsHalal/db/internal/immutable"
 )
 
 // Constraint interface represents a single condition, like "a = 1".  where `a`

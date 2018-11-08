@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/immutable"
-	"upper.io/db.v3/internal/sqladapter/exql"
+	"github.com/WhatsHalal/db"
+	"github.com/WhatsHalal/db/internal/immutable"
+	"github.com/WhatsHalal/db/internal/sqladapter/exql"
 )
 
 type selectorQuery struct {

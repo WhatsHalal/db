@@ -24,9 +24,9 @@ package sqlite
 import (
 	"database/sql"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/WhatsHalal/db"
+	"github.com/WhatsHalal/db/internal/sqladapter"
+	"github.com/WhatsHalal/db/lib/sqlbuilder"
 )
 
 // table is the actual implementation of a collection.

@@ -33,13 +33,13 @@ import (
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
-	"upper.io/db.v3/mongo"
-	"upper.io/db.v3/mssql"
-	"upper.io/db.v3/mysql"
-	"upper.io/db.v3/postgresql"
-	"upper.io/db.v3/ql"
-	"upper.io/db.v3/sqlite"
+	"github.com/WhatsHalal/db"
+	"github.com/WhatsHalal/db/mongo"
+	"github.com/WhatsHalal/db/mssql"
+	"github.com/WhatsHalal/db/mysql"
+	"github.com/WhatsHalal/db/postgresql"
+	"github.com/WhatsHalal/db/ql"
+	"github.com/WhatsHalal/db/sqlite"
 )
 
 var wrappers = []string{

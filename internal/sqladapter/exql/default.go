@@ -1,7 +1,7 @@
 package exql
 
 import (
-	"upper.io/db.v3/internal/cache"
+	"github.com/WhatsHalal/db/internal/cache"
 )
 
 const (

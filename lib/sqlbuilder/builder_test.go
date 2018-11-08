@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3"
+	"github.com/WhatsHalal/db"
 )
 
 func TestSelect(t *testing.T) {

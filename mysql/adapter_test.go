@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/WhatsHalal/db/internal/sqladapter"
+	"github.com/WhatsHalal/db/lib/sqlbuilder"
 )
 
 const (

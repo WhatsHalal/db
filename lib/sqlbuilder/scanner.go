@@ -23,7 +23,7 @@ package sqlbuilder
 
 import (
 	"database/sql"
-	"upper.io/db.v3"
+	"github.com/WhatsHalal/db"
 )
 
 type scanner struct {
